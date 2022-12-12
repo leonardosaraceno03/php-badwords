@@ -13,8 +13,8 @@ infiniti vermiciattoli e moscerini,
 e sento la presenza dell'Onnipossente che ci ha creati a sua immagine e ci tiene in una eterna gioia.
  Amico mio, quando dinanzi ai miei occhi si stende il crepuscolo e posa intorno a me il mondo e il cielo tutto nell'anima mia come la sembianza di donna amata,
 allora spesso";
-$_GET["word"];
+$parola = $_GET["word"];
 echo($string);
-echo str_replace($word, "***", $string);
+echo str_replace($parola, "***", $string);
 
 ?>
